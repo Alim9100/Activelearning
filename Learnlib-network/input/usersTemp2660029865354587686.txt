@@ -1,0 +1,25 @@
+# the name of the sut you want to learn
+name=Chatlearning
+#Words for test
+words=REGISTERSTUDENT REGISTERCITY REGISTERMAJOR LOGINUSER LOGOUT;\
+REGISTERSTUDENT REGISTERCITY LOGOUT REGISTERMAJOR LOGOUT LOGINUSER;\
+REGISTERCITY REGISTERSTUDENT LOGOUT REGISTERMAJOR LOGINUSER;\
+REGISTERSTUDENT LOGOUT REGISTERCITY REGISTERMAJOR LOGINUSER;\
+REGISTERSTUDENT REGISTERCITY LOGOUT REGISTERMAJOR LOGINUSER;\
+REGISTERMAJOR REGISTERSTUDENT REGISTERCITY LOGOUT
+# the equ oracles used (RANDOM, EXHAUSTIVE, WORDS, CONFORMANCE), sep. by ';'
+eqOracle=WORDS;
+# the maximum number of tests (for the RANDOM equ oracle)
+maxNumTests=20000
+# the specification file selected (relative to within the input dir), used by the CONFORMANCE oracle
+specification=bv_spec.smv
+# the input alphabet, sep by ';', start with '!' inputs that you want commented out 
+alphabet=!DISCONNECT;\
+REGISTERSTUDENT;\
+REGISTERCITY;\
+REGISTERMAJOR;\
+LOGINUSER;\
+LOGOUT;\
+REGISTERSTUDENT1;\
+LOGINUSER1;\
+LOGINUSER2;\

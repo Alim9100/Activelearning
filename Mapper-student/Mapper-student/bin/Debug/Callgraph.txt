@@ -1,0 +1,2 @@
+Nodes={Suttest.Program.Registerstudent-1},{Suttest.Program.Registernewstudent-2},{Suttest.Program.Registermajor-3},{Suttest.Program.Registercity-4},{Suttest.Program.Registernewstudent2-5},{Suttest.Program.Loginuser-6},{Suttest.Program.Registernewmajor-7},{Suttest.Program.Registernewcity-8},{Suttest.Program.Registernewstudent3-9},{Suttest.Program.Logout-10},{Suttest.Program.checklogin-11},{Suttest.Program.Registernewstudent4-12},{Suttest.Program.Printerrormessage-13}
+Edges=1-2,2-5,2-8,2-7,5-13,5-9,4-8,3-7,3-13,6-11,7-13,8-13,9-13,9-12,11-13,10-13,1-13,4-13

@@ -1,0 +1,16 @@
+***************Used methods*****************
+System.Boolean Registerstudent (System.String iD, System.String firstname, System.String lastname, System.String username, System.String password, System.String major, System.String city, System.String mail)
+System.Boolean Registernewstudent (System.Int32 iD, System.String firstname, System.String lastname, System.String username, System.Int32 password, System.String major, System.String city, System.String mail)
+System.Boolean Registermajor (System.String major)
+System.Boolean Registercity (System.String _city)
+System.Boolean Registernewstudent2 (System.Int32 iD, System.String firstname, System.String lastname, System.String username, System.Int32 password, System.String major, System.String city, System.String mail)
+System.Boolean Loginuser (System.String username, System.Int32 password)
+System.Boolean Registernewmajor (System.String major)
+System.Boolean Registernewcity (System.String city)
+System.Boolean Registernewstudent3 (System.Int32 iD, System.String firstname, System.String lastname, System.String username, System.Int32 password, System.String major, System.String city, System.String mail)
+System.Boolean Logout ()
+System.Boolean checklogin (System.String username, System.Int32 password)
+System.Boolean Registernewstudent4 (System.Int32 iD, System.String firstname, System.String lastname, System.String username, System.Int32 password, System.String major, System.String city, System.String mail)
+System.Void Printerrormessage (System.String v)
+  
+***************Used methods*****************

@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="321" PostSharpLinesOfCode="0" EnhancedTypesCount="4" SchemaVersion="1" PostSharpVersion="6.4.5.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[PostSharp.Patterns.Diagnostics]PostSharp.Patterns.Diagnostics.LogAttribute">
+    <Instance Declaration="#2=A:Suttest" Id="61a7cfc5014f186d">
+      <Target Target="#3=M:[Suttest]Suttest.Program::Start()">
+        <JoinPoint Advising="#1" Description="#4=Adds logging" Ordinal="0" LinesAvoided="5" />
+      </Target>
+      <Target Target="#5=M:[Suttest]Suttest.Program::Registerstudent(System.String, System.String, System.String, System.String, System.String, System.String, System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" LinesAvoided="5" />
+      </Target>
+      <Target Target="#6=M:[Suttest]Suttest.Program::Registernewstudent(System.Int32, System.String, System.String, System.String, System.Int32, System.String, System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="2" LinesAvoided="5" />
+      </Target>
+      <Target Target="#7=M:[Suttest]Suttest.Program::Registernewstudent2(System.Int32, System.String, System.String, System.String, System.Int32, System.String, System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="3" LinesAvoided="5" />
+      </Target>
+      <Target Target="#8=M:[Suttest]Suttest.Program::Registernewstudent3(System.Int32, System.String, System.String, System.String, System.Int32, System.String, System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="4" LinesAvoided="5" />
+      </Target>
+      <Target Target="#9=M:[Suttest]Suttest.Program::Registernewstudent4(System.Int32, System.String, System.String, System.String, System.Int32, System.String, System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="5" LinesAvoided="5" />
+      </Target>
+      <Target Target="#10=M:[Suttest]Suttest.Program::Registercity(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="6" LinesAvoided="5" />
+      </Target>
+      <Target Target="#11=M:[Suttest]Suttest.Program::Registernewcity(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="7" LinesAvoided="5" />
+      </Target>
+      <Target Target="#12=M:[Suttest]Suttest.Program::Registermajor(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="8" LinesAvoided="5" />
+      </Target>
+      <Target Target="#13=M:[Suttest]Suttest.Program::Registernewmajor(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="9" LinesAvoided="5" />
+      </Target>
+      <Target Target="#14=M:[Suttest]Suttest.Program::Logout()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="10" LinesAvoided="5" />
+      </Target>
+      <Target Target="#15=M:[Suttest]Suttest.Program::Loginuser(System.String, System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="11" LinesAvoided="5" />
+      </Target>
+      <Target Target="#16=M:[Suttest]Suttest.Program::checklogin(System.String, System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="12" LinesAvoided="5" />
+      </Target>
+      <Target Target="#17=M:[Suttest]Suttest.Program::Printerrormessage(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="13" LinesAvoided="5" />
+      </Target>
+      <Target Target="#18=M:[Suttest]Suttest.Program::reset()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="14" LinesAvoided="5" />
+      </Target>
+      <Target Target="#19=M:[Suttest]Suttest.Program::Showmenu()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="15" LinesAvoided="5" />
+      </Target>
+      <Target Target="#20=M:[Suttest]Suttest.Program::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="16" LinesAvoided="5" />
+      </Target>
+      <Target Target="#21=M:[Suttest]Suttest.Program::#cctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="17" LinesAvoided="5" />
+      </Target>
+      <Target Target="#22=M:[Suttest]Suttest.Student::set_ID(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="18" LinesAvoided="5" />
+      </Target>
+      <Target Target="#23=M:[Suttest]Suttest.Student::set_firstname(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="19" LinesAvoided="5" />
+      </Target>
+      <Target Target="#24=M:[Suttest]Suttest.Student::set_lastname(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="20" LinesAvoided="5" />
+      </Target>
+      <Target Target="#25=M:[Suttest]Suttest.Student::set_city(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="21" LinesAvoided="5" />
+      </Target>
+      <Target Target="#26=M:[Suttest]Suttest.Student::set_major(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="22" LinesAvoided="5" />
+      </Target>
+      <Target Target="#27=M:[Suttest]Suttest.Student::set_mail(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="23" LinesAvoided="5" />
+      </Target>
+      <Target Target="#28=M:[Suttest]Suttest.Student::set_username(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="24" LinesAvoided="5" />
+      </Target>
+      <Target Target="#29=M:[Suttest]Suttest.Student::set_password(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="25" LinesAvoided="5" />
+      </Target>
+      <Target Target="#30=M:[Suttest]Suttest.Student::set_Logedin(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="26" LinesAvoided="5" />
+      </Target>
+      <Target Target="#31=M:[Suttest]Suttest.Student::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="27" LinesAvoided="5" />
+      </Target>
+      <Target Target="#32=M:[Suttest]Suttest.Student::print()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="28" LinesAvoided="5" />
+      </Target>
+      <Target Target="#33=M:[Suttest]System.ErrorHandler::set_ErrorMessage(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="29" LinesAvoided="5" />
+      </Target>
+      <Target Target="#34=M:[Suttest]System.ErrorHandler::set_ErrorMessageDetial(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="30" LinesAvoided="5" />
+      </Target>
+      <Target Target="#35=M:[Suttest]System.ErrorHandler::set_Errorcode(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="31" LinesAvoided="5" />
+      </Target>
+      <Target Target="#36=M:[Suttest]System.ErrorHandler::GetError(System.Object)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="32" LinesAvoided="5" />
+      </Target>
+      <Target Target="#37=M:[Suttest]System.ErrorHandler::GetSqlServerError(System.Data.SqlClient.SqlException)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="33" LinesAvoided="5" />
+      </Target>
+      <Target Target="#38=M:[Suttest]System.ExtensionFunctionList::Converttoint(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="34" LinesAvoided="5" />
+      </Target>
+      <Target Target="#39=M:[Suttest]System.ExtensionFunctionList::ConvertTobytesUnicode(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="35" LinesAvoided="5" />
+      </Target>
+      <Target Target="#40=M:[Suttest]System.ExtensionFunctionList::ConvertTobytesAscii(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="36" LinesAvoided="5" />
+      </Target>
+      <Target Target="#41=M:[Suttest]System.ExtensionFunctionList::ConvertToStringsUnicode(System.Byte[], System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="37" LinesAvoided="5" />
+      </Target>
+      <Target Target="#42=M:[Suttest]System.ExtensionFunctionList::ConvertToStringAscii(System.Byte[], System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="38" LinesAvoided="5" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>

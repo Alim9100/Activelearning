@@ -1,0 +1,7 @@
+Hypothesis 0 after: 4128ms
+Membership: 36
+WORDS Equivalence: 0
+Total mem Queries: 36
+Total test Queries: 0
+Timestamp: 1577085897888.
+Running time: 12586ms.

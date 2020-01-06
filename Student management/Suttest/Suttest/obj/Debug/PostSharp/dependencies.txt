@@ -1,0 +1,3 @@
+C:\ProgramData\PostSharp\6.4.5\bin.Release\net472\PostSharp.Compiler.Engine.dll
+C:\Users\ASUS\Desktop\SUT1\Student management\Suttest\Suttest\obj\Debug\PostSharp\postsharp.config
+C:\Users\ASUS\Desktop\SUT1\Student management\Suttest\packages\PostSharp.Patterns.Diagnostics.6.4.5\tools\PostSharp.Patterns.Diagnostics.Weaver.dll

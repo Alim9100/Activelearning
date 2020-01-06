@@ -1,0 +1,9 @@
+Abstractiontable step2
+REGISTERSTUDENT--Registerstudent--TRUE--(iD -> 1) (firstname -> ) (lastname -> ) (username -> ) (password -> 1) (major -> ) (city -> ) (mail -> ) 
+REGISTERCITY--Registercity--TRUE--(_city -> ) 
+REGISTERMAJOR--Registermajor--TRUE--(major -> ) 
+LOGINUSER--Loginuser--TRUE--(username -> ) (password -> 0) 
+LOGOUT--Logout--TRUE--
+REGISTERSTUDENT1--Registerstudent--TRUE--(iD -> 0) (firstname -> 00) (lastname -> 00) (username -> 0000) (password -> 1004) (major -> 00) (city -> 00) (mail -> ) 
+LOGINUSER1--Loginuser--TRUE--(username -> 0) (password -> 1017) 
+LOGINUSER2--Loginuser--TRUE--(username -> 0000) (password -> 1004) 

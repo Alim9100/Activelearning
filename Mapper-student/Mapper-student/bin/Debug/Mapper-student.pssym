@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="533" PostSharpLinesOfCode="0" EnhancedTypesCount="10" SchemaVersion="1" PostSharpVersion="6.4.5.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[PostSharp.Patterns.Diagnostics]PostSharp.Patterns.Diagnostics.LogAttribute">
+    <Instance Declaration="#2=A:Mapper-student" Id="b7b14f94054035e7">
+      <Target Target="#3=M:[Mapper-student]Mapper_student.Abstractiontable::Resettable()">
+        <JoinPoint Advising="#1" Description="#4=Adds logging" Ordinal="0" LinesAvoided="5" />
+      </Target>
+      <Target Target="#5=M:[Mapper-student]Mapper_student.Abstractiontable::Additem([Mapper-student]Mapper_student.Abstractmethod)">
+        <JoinPoint Advising="#1" Description="#4" LinesAvoided="5" />
+      </Target>
+      <Target Target="#6=M:[Mapper-student]Mapper_student.Abstractiontable::Getmethod(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="2" LinesAvoided="5" />
+      </Target>
+      <Target Target="#7=M:[Mapper-student]Mapper_student.Abstractiontable::Updateabstracttable(System.Collections.Generic.List{[Mapper-student]Mapper_student.Method})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="3" LinesAvoided="5" />
+      </Target>
+      <Target Target="#8=M:[Mapper-student]Mapper_student.Abstractiontable::Additemtotable(System.Object[], System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="4" LinesAvoided="5" />
+      </Target>
+      <Target Target="#9=M:[Mapper-student]Mapper_student.Abstractmethod::set_abstractvalue(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="5" LinesAvoided="5" />
+      </Target>
+      <Target Target="#10=M:[Mapper-student]Mapper_student.Abstractmethod::set_concretemethod([Mapper-student]Mapper_student.Method)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="6" LinesAvoided="5" />
+      </Target>
+      <Target Target="#11=M:[Mapper-student]Mapper_student.Abstractmethod::set_parameters(System.Collections.Generic.List{[Mapper-student]Mapper_student.Parameter})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="7" LinesAvoided="5" />
+      </Target>
+      <Target Target="#12=M:[Mapper-student]Mapper_student.Abstractmethod::set_pathcondition(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="8" LinesAvoided="5" />
+      </Target>
+      <Target Target="#13=M:[Mapper-student]Mapper_student.Abstractmethod::#ctor(System.String, [Mapper-student]Mapper_student.Method, System.Collections.Generic.List{[Mapper-student]Mapper_student.Parameter}, System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="9" LinesAvoided="5" />
+      </Target>
+      <Target Target="#14=M:[Mapper-student]Mapper_student.Parameter::set_param(System.Reflection.ParameterInfo)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="10" LinesAvoided="5" />
+      </Target>
+      <Target Target="#15=M:[Mapper-student]Mapper_student.Parameter::set_value(System.Object)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="11" LinesAvoided="5" />
+      </Target>
+      <Target Target="#16=M:[Mapper-student]Mapper_student.Parameter::#ctor(System.Reflection.ParameterInfo, System.Object)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="12" LinesAvoided="5" />
+      </Target>
+      <Target Target="#17=M:[Mapper-student]Mapper_student.Callgraph::Loadgraph(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="13" LinesAvoided="5" />
+      </Target>
+      <Target Target="#18=M:[Mapper-student]Mapper_student.Callgraph::Getmethodlist()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="14" LinesAvoided="5" />
+      </Target>
+      <Target Target="#19=M:[Mapper-student]Mapper_student.Callgraph::#cctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="15" LinesAvoided="5" />
+      </Target>
+      <Target Target="#20=M:[Mapper-student]Mapper_student.Method::set_method(System.Reflection.MethodInfo)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="16" LinesAvoided="5" />
+      </Target>
+      <Target Target="#21=M:[Mapper-student]Mapper_student.Method::set_isvisit(System.Boolean)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="17" LinesAvoided="5" />
+      </Target>
+      <Target Target="#22=M:[Mapper-student]Mapper_student.Method::set_ID(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="18" LinesAvoided="5" />
+      </Target>
+      <Target Target="#23=M:[Mapper-student]Mapper_student.Method::set_score(System.Int32)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="19" LinesAvoided="5" />
+      </Target>
+      <Target Target="#24=M:[Mapper-student]Mapper_student.Method::set_calledmethods(System.Collections.Generic.List{[Mapper-student]Mapper_student.Method})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="20" LinesAvoided="5" />
+      </Target>
+      <Target Target="#25=M:[Mapper-student]Mapper_student.Method::#ctor(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="21" LinesAvoided="5" />
+      </Target>
+      <Target Target="#26=M:[Mapper-student]Mapper_student.Method::print()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="22" LinesAvoided="5" />
+      </Target>
+      <Target Target="#27=M:[Mapper-student]Mapper_student.Learnerhandler::set_ServerSocket(System.Net.Sockets.Socket)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="23" LinesAvoided="5" />
+      </Target>
+      <Target Target="#28=M:[Mapper-student]Mapper_student.Learnerhandler::set_ClientSocket(System.Net.Sockets.Socket)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="24" LinesAvoided="5" />
+      </Target>
+      <Target Target="#29=M:[Mapper-student]Mapper_student.Learnerhandler::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="25" LinesAvoided="5" />
+      </Target>
+      <Target Target="#30=M:[Mapper-student]Mapper_student.Learnerhandler::Init()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="26" LinesAvoided="5" />
+      </Target>
+      <Target Target="#31=M:[Mapper-student]Mapper_student.Learnerhandler::Initialabstractiontable()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="27" LinesAvoided="5" />
+      </Target>
+      <Target Target="#32=M:[Mapper-student]Mapper_student.Learnerhandler::Additem(System.Object[], System.String, System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="28" LinesAvoided="5" />
+      </Target>
+      <Target Target="#33=M:[Mapper-student]Mapper_student.Learnerhandler::Startlistentolearner()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="29" LinesAvoided="5" />
+      </Target>
+      <Target Target="#34=M:[Mapper-student]Mapper_student.Learnerhandler::ProcessQueries()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="30" LinesAvoided="5" />
+      </Target>
+      <Target Target="#35=M:[Mapper-student]Mapper_student.Learnerhandler::Performinput(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="31" LinesAvoided="5" />
+      </Target>
+      <Target Target="#36=M:[Mapper-student]Mapper_student.Learnerhandler::Callsutmethods(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="32" LinesAvoided="5" />
+      </Target>
+      <Target Target="#37=M:[Mapper-student]Mapper_student.Learnerhandler::Checklearning()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="33" LinesAvoided="5" />
+      </Target>
+      <Target Target="#38=M:[Mapper-student]Mapper_student.Learnerhandler::Discovernewalphabet(System.Collections.Generic.List{[Mapper-student]Mapper_student.Method}, System.Collections.Generic.List{[Mapper-student]Mapper_student.Loggedmethods})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="34" LinesAvoided="5" />
+      </Target>
+      <Target Target="#39=M:[Mapper-student]Mapper_student.Learnerhandler::Updatecallinformations([Mapper-student]Mapper_student.Method, [Mapper-student]Mapper_student.Method)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="35" LinesAvoided="5" />
+      </Target>
+      <Target Target="#40=M:[Mapper-student]Mapper_student.Learnerhandler::Findbestfunctions(System.Collections.Generic.List{[Mapper-student]Mapper_student.Method})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="36" LinesAvoided="5" />
+      </Target>
+      <Target Target="#41=M:[Mapper-student]Mapper_student.Learnerhandler::Writeabstractiontable(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="37" LinesAvoided="5" />
+      </Target>
+      <Target Target="#42=M:[Mapper-student]Mapper_student.Learnerhandler::Writemethodstatustofile(System.String, System.Collections.Generic.List{[Mapper-student]Mapper_student.Method})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="38" LinesAvoided="5" />
+      </Target>
+      <Target Target="#43=M:[Mapper-student]Mapper_student.Learnerhandler::#cctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="39" LinesAvoided="5" />
+      </Target>
+      <Target Target="#44=M:[Mapper-student]Mapper_student.Logmanagement::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="40" LinesAvoided="5" />
+      </Target>
+      <Target Target="#45=M:[Mapper-student]Mapper_student.Logmanagement::Getusedmethods(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="41" LinesAvoided="5" />
+      </Target>
+      <Target Target="#46=M:[Mapper-student]Mapper_student.Logmanagement::Methodextraction(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="42" LinesAvoided="5" />
+      </Target>
+      <Target Target="#47=M:[Mapper-student]Mapper_student.Logmanagement::Getmethod(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="43" LinesAvoided="5" />
+      </Target>
+      <Target Target="#48=M:[Mapper-student]Mapper_student.Logmanagement::#cctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="44" LinesAvoided="5" />
+      </Target>
+      <Target Target="#49=M:[Mapper-student]Mapper_student.Loggedmethods::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="45" LinesAvoided="5" />
+      </Target>
+      <Target Target="#50=M:[Mapper-student]Mapper_student.Loggedmethods::set_classname(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="46" LinesAvoided="5" />
+      </Target>
+      <Target Target="#51=M:[Mapper-student]Mapper_student.Loggedmethods::set_methodname(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="47" LinesAvoided="5" />
+      </Target>
+      <Target Target="#52=M:[Mapper-student]Mapper_student.Loggedmethods::set_parameters(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="48" LinesAvoided="5" />
+      </Target>
+      <Target Target="#53=M:[Mapper-student]Mapper_student.Loggedmethods::set_returnstatment(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="49" LinesAvoided="5" />
+      </Target>
+      <Target Target="#54=M:[Mapper-student]Mapper_student.Methodmanagement::Savemethodstofile(System.String)">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="50" LinesAvoided="5" />
+      </Target>
+      <Target Target="#55=M:[Mapper-student]Mapper_student.Methodmanagement::Getunusedmethods(System.Collections.Generic.List{[Mapper-student]Mapper_student.Loggedmethods})">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="51" LinesAvoided="5" />
+      </Target>
+      <Target Target="#56=M:[Mapper-student]Mapper_student.Program::#ctor()">
+        <JoinPoint Advising="#1" Description="#4" Ordinal="52" LinesAvoided="5" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>
